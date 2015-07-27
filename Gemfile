@@ -15,6 +15,7 @@ gem 'thin'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'factory_girl_rails'
@@ -23,6 +24,7 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'terminal-notifier-guard', require: false
 end
 
 group :development do
